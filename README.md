@@ -1,6 +1,6 @@
 # Todo List
 
-Link Verce: https://todos-list-ivory-psi.vercel.app/
+Link Vercel: https://todos-list-ivory-psi.vercel.app/
 
 Utilizados neste projeto 
 <li>
