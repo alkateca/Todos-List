@@ -20,7 +20,7 @@ const dbUser = process.env.DB_USER!;
 const dbPassword = process.env.DB_PASSWORD!;
 
 mongoose.connect(
-  `mongodb+srv://vercel-admin-user:ixFsDiVJN7btA5Am@authcluster.vzwg9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+  `mongodb+srv://${dbUser}:${dbPassword}@authcluster.vzwg9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 )
   .then(() => {
     app.listen(port, () => {
