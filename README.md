@@ -16,13 +16,13 @@ Utilizados neste projeto
 acessar pasta client e executar npm run dev.
 acessar pasta server e executar npm start.
 
-arquivo .env deve ser criado na raiz da pasta server e possuir as variáveis DB_USER e DB_PASSWORD com os valores que serão utilizados para autenticação no cluster do mongoDB.
+arquivo .env deve ser criado na raiz da pasta server e possuir a variável DB_URI com o valor que será utilizados para autenticação no cluster do mongoDB.
 
-Na linha 23 do ./server/index.ts, está localizado o link para o mongoDB, será necessário criação de um cluster para que seja executado localmente a aplicação. 
-https://www.mongodb.com/pt-br
+![image](https://github.com/user-attachments/assets/7a932eb9-a125-4918-aa0d-561e2f00c002)
+</BR>
+![image](https://github.com/user-attachments/assets/717fc35a-e8c5-47c7-94d8-ebf3ee5a6e75)
 
 
-![image](https://github.com/user-attachments/assets/7c3d7912-1c3a-4fdd-8294-26ebe7f5196a)
 
 Dependências instaladas no projeto:
 <li>npm create vite@latest </li>
