@@ -16,11 +16,10 @@ app.use(cors());
 
 
 const port = 3001;
-const dbUser = process.env.DB_USER!;
-const dbPassword = process.env.DB_PASSWORD!;
+const dbUri = process.env.DB_URI;
 
 mongoose.connect(
-  `mongodb+srv://${dbUser}:${dbPassword}@authcluster.vzwg9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+  `${dbUri}`
 )
   .then(() => {
     app.listen(port, () => {
