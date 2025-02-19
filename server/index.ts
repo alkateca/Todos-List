@@ -16,7 +16,7 @@ app.use(cors());
 
 
 const port = 3001;
-const dbUri = process.env.DB_URI;
+const dbUri = process.env.MONGODB_URI;
 
 mongoose.connect(
   `${dbUri}`
